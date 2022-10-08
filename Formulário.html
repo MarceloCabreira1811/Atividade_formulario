@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <style>
+        div{color: brown; background-color: aquamarine; margin-right: 900px;}
+        body{background-color: black;}
+        h1{color: bisque;}
+    </style>
+</head>
+
+<body>
+    <h1>FORMULÁRIO</h1>
+    <div>
+        <form method="post">
+            <fieldset>
+                <Label for="idnome">Nome:</Label>
+                <input type="text" name="dados" id="idnome" placeholder="Digite seu nome" required><br>
+                <label for="dn">Data de nascimento:</label>
+                <input type="date" name="dados" id="dn" required><br>
+                <label>Sexo:</label>
+                <Input id="masc" type="radio" name="dados" value="MASC" required>
+                <label for="masc">Masculino</label>
+                <input id="fem" type="radio" name="dados" value="FEM" required>
+                <label for="fem">Feminino</label>
+                <input id="pni" type="radio" name="dados" value="PNI" required>
+                <label for="pni">Prefiro não Informar</label><br>
+                <label>Endereço:</label><br>
+                <label for="log">Lougradouro:</label>
+                <input type="text" name="dados" id="log" required><br>
+                <label for="bar">Bairro:</label>
+                <input id="bar" type="text" name="dados" required><br>
+                <label for="cid">Cidade:</label>
+                <input id="cid" type="text" name="dados" required><br>
+                <label for="uf">UF:</label>
+                <select nome="dados">
+                    <option>...</option>
+                    <option value="AC">AC</option>
+                    <option value="AL">AL</option>
+                    <option value="AP">AP</option>
+                    <option value="AM">AM</option>
+                    <option value="BA">BA</option>
+                    <option value="CE">CE</option>
+                    <option value="DF">DF</option>
+                    <option value="ES">ES</option>
+                    <option value="GO">GO</option>
+                    <option value="GO">MA</option>
+                    <option value="MT">MT</option>
+                    <option value="MS">MS</option>
+                    <option value="MG">MG</option>
+                    <option value="PA">PA</option>
+                    <option value="PB">PB</option>
+                    <option value="PR">PR</option>
+                    <option value="PE">PE</option>
+                    <option value="PI">PI</option>
+                    <option value="RJ">RJ</option>
+                    <option value="RN">RN</option>
+                    <option value="RS">RS</option>
+                    <option value="RO">RO</option>
+                    <option value="RR">RR</option>
+                    <option value="SC">SC</option>
+                    <option value="SP">SP</option>
+                    <option value="SE">SE</option>
+                    <option value="TO">TO</option>
+                </select><br>
+                <label for="email">Email:</label>
+                <input id="email" type="email" name="dados" required><br>
+                <input type="reset" name="dados" value="Limpar">
+                <input type="submit" name="dados" value="Enviar">
+            </fieldset>
+
+        </form>
+    </div>
+
+</body>
+
+</html>
